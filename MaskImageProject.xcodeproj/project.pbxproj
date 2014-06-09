@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6470D0B11945D5380007DBD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6470D0B01945D5380007DBD5 /* Foundation.framework */; };
+		6470D0B31945D5380007DBD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6470D0B21945D5380007DBD5 /* CoreGraphics.framework */; };
+		6470D0B51945D5380007DBD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6470D0B41945D5380007DBD5 /* UIKit.framework */; };
+		6470D0BB1945D5380007DBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0B91945D5380007DBD5 /* InfoPlist.strings */; };
+		6470D0BD1945D5380007DBD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0BC1945D5380007DBD5 /* main.m */; };
+		6470D0C11945D5380007DBD5 /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0C01945D5380007DBD5 /* NTAppDelegate.m */; };
+		6470D0C41945D5380007DBD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0C21945D5380007DBD5 /* Main.storyboard */; };
+		6470D0C71945D5380007DBD5 /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0C61945D5380007DBD5 /* NTViewController.m */; };
+		6470D0C91945D5380007DBD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0C81945D5380007DBD5 /* Images.xcassets */; };
+		6470D0D01945D5380007DBD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6470D0CF1945D5380007DBD5 /* XCTest.framework */; };
+		6470D0D11945D5380007DBD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6470D0B01945D5380007DBD5 /* Foundation.framework */; };
+		6470D0D21945D5380007DBD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6470D0B41945D5380007DBD5 /* UIKit.framework */; };
+		6470D0DA1945D5380007DBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0D81945D5380007DBD5 /* InfoPlist.strings */; };
+		6470D0DC1945D5380007DBD5 /* MaskImageProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0DB1945D5380007DBD5 /* MaskImageProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6470D0D31945D5380007DBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6470D0A51945D5380007DBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6470D0AC1945D5380007DBD5;
+			remoteInfo = MaskImageProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6470D0AD1945D5380007DBD5 /* MaskImageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskImageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6470D0B01945D5380007DBD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6470D0B21945D5380007DBD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6470D0B41945D5380007DBD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6470D0B81945D5380007DBD5 /* MaskImageProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskImageProject-Info.plist"; sourceTree = "<group>"; };
+		6470D0BA1945D5380007DBD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6470D0BC1945D5380007DBD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6470D0BE1945D5380007DBD5 /* MaskImageProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaskImageProject-Prefix.pch"; sourceTree = "<group>"; };
+		6470D0BF1945D5380007DBD5 /* NTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAppDelegate.h; sourceTree = "<group>"; };
+		6470D0C01945D5380007DBD5 /* NTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
+		6470D0C31945D5380007DBD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6470D0C51945D5380007DBD5 /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
+		6470D0C61945D5380007DBD5 /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+		6470D0C81945D5380007DBD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6470D0CE1945D5380007DBD5 /* MaskImageProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskImageProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6470D0CF1945D5380007DBD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6470D0D71945D5380007DBD5 /* MaskImageProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskImageProjectTests-Info.plist"; sourceTree = "<group>"; };
+		6470D0D91945D5380007DBD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6470D0DB1945D5380007DBD5 /* MaskImageProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskImageProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6470D0AA1945D5380007DBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470D0B31945D5380007DBD5 /* CoreGraphics.framework in Frameworks */,
+				6470D0B51945D5380007DBD5 /* UIKit.framework in Frameworks */,
+				6470D0B11945D5380007DBD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6470D0CB1945D5380007DBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470D0D01945D5380007DBD5 /* XCTest.framework in Frameworks */,
+				6470D0D21945D5380007DBD5 /* UIKit.framework in Frameworks */,
+				6470D0D11945D5380007DBD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6470D0A41945D5380007DBD5 = {
+			isa = PBXGroup;
+			children = (
+				6470D0B61945D5380007DBD5 /* MaskImageProject */,
+				6470D0D51945D5380007DBD5 /* MaskImageProjectTests */,
+				6470D0AF1945D5380007DBD5 /* Frameworks */,
+				6470D0AE1945D5380007DBD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6470D0AE1945D5380007DBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0AD1945D5380007DBD5 /* MaskImageProject.app */,
+				6470D0CE1945D5380007DBD5 /* MaskImageProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6470D0AF1945D5380007DBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0B01945D5380007DBD5 /* Foundation.framework */,
+				6470D0B21945D5380007DBD5 /* CoreGraphics.framework */,
+				6470D0B41945D5380007DBD5 /* UIKit.framework */,
+				6470D0CF1945D5380007DBD5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6470D0B61945D5380007DBD5 /* MaskImageProject */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0BF1945D5380007DBD5 /* NTAppDelegate.h */,
+				6470D0C01945D5380007DBD5 /* NTAppDelegate.m */,
+				6470D0C21945D5380007DBD5 /* Main.storyboard */,
+				6470D0C51945D5380007DBD5 /* NTViewController.h */,
+				6470D0C61945D5380007DBD5 /* NTViewController.m */,
+				6470D0C81945D5380007DBD5 /* Images.xcassets */,
+				6470D0B71945D5380007DBD5 /* Supporting Files */,
+			);
+			path = MaskImageProject;
+			sourceTree = "<group>";
+		};
+		6470D0B71945D5380007DBD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0B81945D5380007DBD5 /* MaskImageProject-Info.plist */,
+				6470D0B91945D5380007DBD5 /* InfoPlist.strings */,
+				6470D0BC1945D5380007DBD5 /* main.m */,
+				6470D0BE1945D5380007DBD5 /* MaskImageProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6470D0D51945D5380007DBD5 /* MaskImageProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0DB1945D5380007DBD5 /* MaskImageProjectTests.m */,
+				6470D0D61945D5380007DBD5 /* Supporting Files */,
+			);
+			path = MaskImageProjectTests;
+			sourceTree = "<group>";
+		};
+		6470D0D61945D5380007DBD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0D71945D5380007DBD5 /* MaskImageProjectTests-Info.plist */,
+				6470D0D81945D5380007DBD5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6470D0AC1945D5380007DBD5 /* MaskImageProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6470D0DF1945D5380007DBD5 /* Build configuration list for PBXNativeTarget "MaskImageProject" */;
+			buildPhases = (
+				6470D0A91945D5380007DBD5 /* Sources */,
+				6470D0AA1945D5380007DBD5 /* Frameworks */,
+				6470D0AB1945D5380007DBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskImageProject;
+			productName = MaskImageProject;
+			productReference = 6470D0AD1945D5380007DBD5 /* MaskImageProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6470D0CD1945D5380007DBD5 /* MaskImageProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6470D0E21945D5380007DBD5 /* Build configuration list for PBXNativeTarget "MaskImageProjectTests" */;
+			buildPhases = (
+				6470D0CA1945D5380007DBD5 /* Sources */,
+				6470D0CB1945D5380007DBD5 /* Frameworks */,
+				6470D0CC1945D5380007DBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6470D0D41945D5380007DBD5 /* PBXTargetDependency */,
+			);
+			name = MaskImageProjectTests;
+			productName = MaskImageProjectTests;
+			productReference = 6470D0CE1945D5380007DBD5 /* MaskImageProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6470D0A51945D5380007DBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicholas Tau";
+				TargetAttributes = {
+					6470D0CD1945D5380007DBD5 = {
+						TestTargetID = 6470D0AC1945D5380007DBD5;
+					};
+				};
+			};
+			buildConfigurationList = 6470D0A81945D5380007DBD5 /* Build configuration list for PBXProject "MaskImageProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6470D0A41945D5380007DBD5;
+			productRefGroup = 6470D0AE1945D5380007DBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6470D0AC1945D5380007DBD5 /* MaskImageProject */,
+				6470D0CD1945D5380007DBD5 /* MaskImageProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6470D0AB1945D5380007DBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470D0C91945D5380007DBD5 /* Images.xcassets in Resources */,
+				6470D0BB1945D5380007DBD5 /* InfoPlist.strings in Resources */,
+				6470D0C41945D5380007DBD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6470D0CC1945D5380007DBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470D0DA1945D5380007DBD5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6470D0A91945D5380007DBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470D0C71945D5380007DBD5 /* NTViewController.m in Sources */,
+				6470D0C11945D5380007DBD5 /* NTAppDelegate.m in Sources */,
+				6470D0BD1945D5380007DBD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6470D0CA1945D5380007DBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470D0DC1945D5380007DBD5 /* MaskImageProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6470D0D41945D5380007DBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6470D0AC1945D5380007DBD5 /* MaskImageProject */;
+			targetProxy = 6470D0D31945D5380007DBD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6470D0B91945D5380007DBD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6470D0BA1945D5380007DBD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6470D0C21945D5380007DBD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6470D0C31945D5380007DBD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6470D0D81945D5380007DBD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6470D0D91945D5380007DBD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6470D0DD1945D5380007DBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6470D0DE1945D5380007DBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6470D0E01945D5380007DBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskImageProject/MaskImageProject-Prefix.pch";
+				INFOPLIST_FILE = "MaskImageProject/MaskImageProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6470D0E11945D5380007DBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskImageProject/MaskImageProject-Prefix.pch";
+				INFOPLIST_FILE = "MaskImageProject/MaskImageProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6470D0E31945D5380007DBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskImageProject.app/MaskImageProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskImageProject/MaskImageProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MaskImageProjectTests/MaskImageProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6470D0E41945D5380007DBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskImageProject.app/MaskImageProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskImageProject/MaskImageProject-Prefix.pch";
+				INFOPLIST_FILE = "MaskImageProjectTests/MaskImageProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6470D0A81945D5380007DBD5 /* Build configuration list for PBXProject "MaskImageProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6470D0DD1945D5380007DBD5 /* Debug */,
+				6470D0DE1945D5380007DBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6470D0DF1945D5380007DBD5 /* Build configuration list for PBXNativeTarget "MaskImageProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6470D0E01945D5380007DBD5 /* Debug */,
+				6470D0E11945D5380007DBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6470D0E21945D5380007DBD5 /* Build configuration list for PBXNativeTarget "MaskImageProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6470D0E31945D5380007DBD5 /* Debug */,
+				6470D0E41945D5380007DBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6470D0A51945D5380007DBD5 /* Project object */;
+}
