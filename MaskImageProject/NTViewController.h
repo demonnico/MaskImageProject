@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface NTViewController : UIViewController
+- (IBAction)buttonTapped:(id)sender;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "NTViewController.h"
+#import "UIImage+MaskImage.h"
 
 @interface NTViewController ()
 
@@ -26,4 +27,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonTapped:(id)sender {
+}
 @end
