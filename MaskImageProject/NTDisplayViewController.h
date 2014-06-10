@@ -7,5 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface NTDisplayViewController : UIViewController
+
+typedef enum : NSUInteger {
+    kDisplayWithMask = 0,
+    kDisplayWithCornerRadius
+} kDisplayStyle;
+
+@interface NTDisplayViewController : UITableViewController
+-(id)initWithDisplayStyle:(kDisplayStyle)style;
 @end

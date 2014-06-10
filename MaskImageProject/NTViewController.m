@@ -7,7 +7,7 @@
 //
 
 #import "NTViewController.h"
-#import "UIImage+MaskImage.h"
+#import "NTDisplayViewController.h"
 
 @interface NTViewController ()
 
@@ -27,6 +27,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonTapped:(id)sender {
+- (IBAction)buttonTapped:(UIButton*)sender {
+    NTDisplayViewController * controller =
+    [[NTDisplayViewController alloc] initWithDisplayStyle:sender.tag];
+    
+    [self.navigationController pushViewController:controller
+                                         animated:YES];
 }
 @end
