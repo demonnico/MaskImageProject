@@ -17,3 +17,7 @@ CALayer's cornerRadius&maskToBounds
 UIImageView's cornerRadius
 
 ![](https://raw.githubusercontent.com/demon1105/ImagesLib/master/59.png)
+
+##License
+
+MaskImageProject is released under a BSD License. See LICENSE file for details.
