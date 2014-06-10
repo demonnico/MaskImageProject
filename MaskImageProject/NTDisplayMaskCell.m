@@ -7,7 +7,7 @@
 //
 
 #import "NTDisplayMaskCell.h"
-#import "UIImageView+CornerRound.h"
+#import "UIImageView+CornerRadius.h"
 
 @interface NTDisplayMaskCell()
 @property (nonatomic,strong) NSMutableArray * imageList;

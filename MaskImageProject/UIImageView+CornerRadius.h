@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (CornerRound)
+@interface UIImageView (CornerRadius)
 @property (nonatomic,assign) CGFloat cornerRadius;
 @end

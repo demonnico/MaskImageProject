@@ -25,7 +25,7 @@
 		6470D0ED19469CA40007DBD5 /* NTDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0EC19469CA40007DBD5 /* NTDisplayViewController.m */; };
 		6470D0F11946A0A20007DBD5 /* NTDisplayMaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F01946A0A20007DBD5 /* NTDisplayMaskCell.m */; };
 		6470D0F41946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F31946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m */; };
-		6470D0F71946A3110007DBD5 /* UIImageView+CornerRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F61946A3110007DBD5 /* UIImageView+CornerRound.m */; };
+		6470D0F71946A3110007DBD5 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F61946A3110007DBD5 /* UIImageView+CornerRadius.m */; };
 		6470D0F91946B13C0007DBD5 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0F81946B13C0007DBD5 /* avatar@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -67,8 +67,8 @@
 		6470D0F01946A0A20007DBD5 /* NTDisplayMaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDisplayMaskCell.m; sourceTree = "<group>"; };
 		6470D0F21946A0B70007DBD5 /* NTDisplayCornerRadiusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDisplayCornerRadiusCell.h; sourceTree = "<group>"; };
 		6470D0F31946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDisplayCornerRadiusCell.m; sourceTree = "<group>"; };
-		6470D0F51946A3110007DBD5 /* UIImageView+CornerRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRound.h"; sourceTree = "<group>"; };
-		6470D0F61946A3110007DBD5 /* UIImageView+CornerRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRound.m"; sourceTree = "<group>"; };
+		6470D0F51946A3110007DBD5 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		6470D0F61946A3110007DBD5 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6470D0F81946B13C0007DBD5 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,8 +179,8 @@
 			children = (
 				6470D0E51945D5600007DBD5 /* UIImage+MaskImage.h */,
 				6470D0E61945D5600007DBD5 /* UIImage+MaskImage.m */,
-				6470D0F51946A3110007DBD5 /* UIImageView+CornerRound.h */,
-				6470D0F61946A3110007DBD5 /* UIImageView+CornerRound.m */,
+				6470D0F51946A3110007DBD5 /* UIImageView+CornerRadius.h */,
+				6470D0F61946A3110007DBD5 /* UIImageView+CornerRadius.m */,
 			);
 			name = "UIImage+MaskImage";
 			sourceTree = "<group>";
@@ -299,7 +299,7 @@
 				6470D0E71945D5600007DBD5 /* UIImage+MaskImage.m in Sources */,
 				6470D0C11945D5380007DBD5 /* NTAppDelegate.m in Sources */,
 				6470D0BD1945D5380007DBD5 /* main.m in Sources */,
-				6470D0F71946A3110007DBD5 /* UIImageView+CornerRound.m in Sources */,
+				6470D0F71946A3110007DBD5 /* UIImageView+CornerRadius.m in Sources */,
 				6470D0F11946A0A20007DBD5 /* NTDisplayMaskCell.m in Sources */,
 				6470D0F41946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m in Sources */,
 				6470D0ED19469CA40007DBD5 /* NTDisplayViewController.m in Sources */,

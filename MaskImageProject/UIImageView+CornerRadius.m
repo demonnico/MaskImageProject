@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Nicholas Tau. All rights reserved.
 //
 
-#import "UIImageView+CornerRound.h"
+#import "UIImageView+CornerRadius.h"
 #import <objc/runtime.h>
 #import "UIImage+MaskImage.h"
 
-@implementation UIImageView (CornerRound)
+@implementation UIImageView (CornerRadius)
 
 -(void)setCornerRadius:(CGFloat)innerCornerRadius
 {
