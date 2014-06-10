@@ -31,9 +31,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (MaskImage)
-+(UIImage*)imageWithSize:(CGSize)imageSize
-               tintColor:(UIColor*)tintColor
-            cornerRadius:(CGFloat)radius;
 -(UIImage*)imageWithTintColor:(UIColor*)tintColor
                  cornerRadius:(CGFloat)radius;
 @end
