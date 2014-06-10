@@ -39,6 +39,7 @@
     if (!(objc_getAssociatedObject(self, _cmd))) {
         CALayer * layer = [CALayer layer];
         layer.frame = CGRectMake(0, 0, self.layer.frame.size.width, self.layer.frame.size.height);
+        objc_setAssociatedObject(self, _cmd, layer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
         return layer;
     }
     return objc_getAssociatedObject(self, _cmd);
