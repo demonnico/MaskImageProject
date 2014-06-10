@@ -21,7 +21,7 @@
     if (self) {
         self.imageList = [NSMutableArray array];
         
-        for (int i=0; i<5; i++) {
+        for (int i=0; i<4; i++) {
             UIImage * imageAvatar = [UIImage imageNamed:@"avatar"];
             UIImageView * imageView = [[UIImageView alloc] initWithImage:imageAvatar];
             [self.contentView addSubview:imageView];
