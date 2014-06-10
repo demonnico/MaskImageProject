@@ -130,14 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				6470D0E81945D5680007DBD5 /* UIImage+MaskImage */,
+				6470D0FA1946B39E0007DBD5 /* Demo */,
 				6470D0BF1945D5380007DBD5 /* NTAppDelegate.h */,
 				6470D0C01945D5380007DBD5 /* NTAppDelegate.m */,
 				6470D0C21945D5380007DBD5 /* Main.storyboard */,
-				6470D0EB19469CA40007DBD5 /* NTDisplayViewController.h */,
-				6470D0EC19469CA40007DBD5 /* NTDisplayViewController.m */,
-				6470D0EE1946A0850007DBD5 /* TableViewCell */,
-				6470D0C51945D5380007DBD5 /* NTViewController.h */,
-				6470D0C61945D5380007DBD5 /* NTViewController.m */,
 				6470D0C81945D5380007DBD5 /* Images.xcassets */,
 				6470D0B71945D5380007DBD5 /* Supporting Files */,
 			);
@@ -194,6 +190,18 @@
 				6470D0F31946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m */,
 			);
 			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		6470D0FA1946B39E0007DBD5 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0EE1946A0850007DBD5 /* TableViewCell */,
+				6470D0C51945D5380007DBD5 /* NTViewController.h */,
+				6470D0C61945D5380007DBD5 /* NTViewController.m */,
+				6470D0EB19469CA40007DBD5 /* NTDisplayViewController.h */,
+				6470D0EC19469CA40007DBD5 /* NTDisplayViewController.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
