@@ -22,8 +22,11 @@
 		6470D0DA1945D5380007DBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0D81945D5380007DBD5 /* InfoPlist.strings */; };
 		6470D0DC1945D5380007DBD5 /* MaskImageProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0DB1945D5380007DBD5 /* MaskImageProjectTests.m */; };
 		6470D0E71945D5600007DBD5 /* UIImage+MaskImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0E61945D5600007DBD5 /* UIImage+MaskImage.m */; };
-		6470D0EA1946984A0007DBD5 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0E91946984A0007DBD5 /* avatar.png */; };
 		6470D0ED19469CA40007DBD5 /* NTDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0EC19469CA40007DBD5 /* NTDisplayViewController.m */; };
+		6470D0F11946A0A20007DBD5 /* NTDisplayMaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F01946A0A20007DBD5 /* NTDisplayMaskCell.m */; };
+		6470D0F41946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F31946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m */; };
+		6470D0F71946A3110007DBD5 /* UIImageView+CornerRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0F61946A3110007DBD5 /* UIImageView+CornerRound.m */; };
+		6470D0F91946B13C0007DBD5 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6470D0F81946B13C0007DBD5 /* avatar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +61,15 @@
 		6470D0DB1945D5380007DBD5 /* MaskImageProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskImageProjectTests.m; sourceTree = "<group>"; };
 		6470D0E51945D5600007DBD5 /* UIImage+MaskImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MaskImage.h"; sourceTree = "<group>"; };
 		6470D0E61945D5600007DBD5 /* UIImage+MaskImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MaskImage.m"; sourceTree = "<group>"; };
-		6470D0E91946984A0007DBD5 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		6470D0EB19469CA40007DBD5 /* NTDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDisplayViewController.h; sourceTree = "<group>"; };
 		6470D0EC19469CA40007DBD5 /* NTDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDisplayViewController.m; sourceTree = "<group>"; };
+		6470D0EF1946A0A20007DBD5 /* NTDisplayMaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDisplayMaskCell.h; sourceTree = "<group>"; };
+		6470D0F01946A0A20007DBD5 /* NTDisplayMaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDisplayMaskCell.m; sourceTree = "<group>"; };
+		6470D0F21946A0B70007DBD5 /* NTDisplayCornerRadiusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDisplayCornerRadiusCell.h; sourceTree = "<group>"; };
+		6470D0F31946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDisplayCornerRadiusCell.m; sourceTree = "<group>"; };
+		6470D0F51946A3110007DBD5 /* UIImageView+CornerRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRound.h"; sourceTree = "<group>"; };
+		6470D0F61946A3110007DBD5 /* UIImageView+CornerRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRound.m"; sourceTree = "<group>"; };
+		6470D0F81946B13C0007DBD5 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +135,7 @@
 				6470D0C21945D5380007DBD5 /* Main.storyboard */,
 				6470D0EB19469CA40007DBD5 /* NTDisplayViewController.h */,
 				6470D0EC19469CA40007DBD5 /* NTDisplayViewController.m */,
+				6470D0EE1946A0850007DBD5 /* TableViewCell */,
 				6470D0C51945D5380007DBD5 /* NTViewController.h */,
 				6470D0C61945D5380007DBD5 /* NTViewController.m */,
 				6470D0C81945D5380007DBD5 /* Images.xcassets */,
@@ -137,7 +147,7 @@
 		6470D0B71945D5380007DBD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6470D0E91946984A0007DBD5 /* avatar.png */,
+				6470D0F81946B13C0007DBD5 /* avatar@2x.png */,
 				6470D0B81945D5380007DBD5 /* MaskImageProject-Info.plist */,
 				6470D0B91945D5380007DBD5 /* InfoPlist.strings */,
 				6470D0BC1945D5380007DBD5 /* main.m */,
@@ -169,8 +179,21 @@
 			children = (
 				6470D0E51945D5600007DBD5 /* UIImage+MaskImage.h */,
 				6470D0E61945D5600007DBD5 /* UIImage+MaskImage.m */,
+				6470D0F51946A3110007DBD5 /* UIImageView+CornerRound.h */,
+				6470D0F61946A3110007DBD5 /* UIImageView+CornerRound.m */,
 			);
 			name = "UIImage+MaskImage";
+			sourceTree = "<group>";
+		};
+		6470D0EE1946A0850007DBD5 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6470D0EF1946A0A20007DBD5 /* NTDisplayMaskCell.h */,
+				6470D0F01946A0A20007DBD5 /* NTDisplayMaskCell.m */,
+				6470D0F21946A0B70007DBD5 /* NTDisplayCornerRadiusCell.h */,
+				6470D0F31946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +275,7 @@
 			files = (
 				6470D0C91945D5380007DBD5 /* Images.xcassets in Resources */,
 				6470D0BB1945D5380007DBD5 /* InfoPlist.strings in Resources */,
-				6470D0EA1946984A0007DBD5 /* avatar.png in Resources */,
+				6470D0F91946B13C0007DBD5 /* avatar@2x.png in Resources */,
 				6470D0C41945D5380007DBD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +299,9 @@
 				6470D0E71945D5600007DBD5 /* UIImage+MaskImage.m in Sources */,
 				6470D0C11945D5380007DBD5 /* NTAppDelegate.m in Sources */,
 				6470D0BD1945D5380007DBD5 /* main.m in Sources */,
+				6470D0F71946A3110007DBD5 /* UIImageView+CornerRound.m in Sources */,
+				6470D0F11946A0A20007DBD5 /* NTDisplayMaskCell.m in Sources */,
+				6470D0F41946A0B70007DBD5 /* NTDisplayCornerRadiusCell.m in Sources */,
 				6470D0ED19469CA40007DBD5 /* NTDisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
